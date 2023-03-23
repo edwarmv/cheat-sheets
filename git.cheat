@@ -4,3 +4,9 @@
 git branch -m <old_branch_name> <new_branch_name>
 
 $ old_branch_name: git branch | awk '{print $NF}'
+
+# Amment a commit
+git commit --amend
+
+# Amment a commit without changing its message
+git commit --amend --no-edit
