@@ -10,3 +10,6 @@ git commit --amend
 
 # Amment a commit without changing its message
 git commit --amend --no-edit
+
+# Remove all untracked files
+git clean -fxd
