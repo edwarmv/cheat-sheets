@@ -8,12 +8,12 @@ $ old_branch_name: git branch | awk '{print $NF}'
 # Delete branch locally
 git branch -D <local_branch_name>
 
-$ local_brach_name: git branch | awk '{print $NF}'
+$ local_branch_name: git branch | awk '{print $NF}'
 
 # Delete branch remotely
 git push origin --delete <remote_branch_name>
 
-$ remote_brach_name: git branch | awk '{print $NF}'
+$ remote_branch_name: git branch | awk '{print $NF}'
 
 # Amment a commit
 git commit --amend
