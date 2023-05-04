@@ -23,3 +23,6 @@ git commit --amend --no-edit
 
 # Remove all untracked files
 git clean -fxd
+
+# Initialize submodules
+git submodule update --init
