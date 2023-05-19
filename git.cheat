@@ -24,5 +24,8 @@ git commit --amend --no-edit
 # Remove all untracked files
 git clean -fxd
 
+# Unstage all files
+git restore --staged .
+
 # Initialize submodules
 git submodule update --init
