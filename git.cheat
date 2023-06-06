@@ -29,3 +29,6 @@ git restore --staged .
 
 # Initialize submodules
 git submodule update --init
+
+# List all submodules branch names
+git submodule foreach --recursive git current-branch
