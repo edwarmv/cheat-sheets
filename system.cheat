@@ -1,0 +1,4 @@
+% system
+
+# Current ip
+ip addr show
