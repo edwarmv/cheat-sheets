@@ -37,3 +37,14 @@ git submodule foreach --recursive git current-branch
 
 # Initialize all submodules
 git submodule update --init --recursive
+
+# Fetch all submodules
+git submodule foreach --recursive git fetch
+
+# Point to submodules pointed in the current commit of the main repository
+git submodule update --recursive
+
+% git-tags
+
+# List all tags with their related commit hash
+git show-ref --tags
